@@ -5,6 +5,6 @@ fn main() {
     println!("This is a program I wrote to learn about Rust");
     let mut input = String::new();
     while std::io::stdin().read_line(&mut input).unwrap() > 0 {
-        println!("{}", input);
+        println!("\n\n----------\n{}\n---------\n", input);
     }
 }
